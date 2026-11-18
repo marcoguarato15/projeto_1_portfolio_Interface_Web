@@ -105,6 +105,27 @@ function App() {
           ))}
         </div>
       </section>
+
+      <section className="mt-6 rounded-xl bg-white p-4 shadow">
+        <h2 className="mb-3 text-xl font-bold">
+          Contato
+        </h2>
+
+        <p>Email: marcoguarato15@gmail.com</p>
+
+        <p className="mt-2">
+          GitHub:
+          <a
+            href="https://github.com/marcoguarato15"
+            target="_blank"
+            className="ml-2 text-emerald-700"
+          >
+            github.com/marcoguarato15
+          </a>
+        </p>
+      </section>
+
+      <Rodape ano={new Date().getFullYear()} />
     </main>
   )
 }
