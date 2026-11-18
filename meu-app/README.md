@@ -14,3 +14,5 @@ Painel: Cria uma seção reutilizável que recebe conteúdo através de children
 HabilidadeItem: Exibe uma habilidade e seu nível de conhecimento.
 ProjetoCard: Mostra as informações de um projeto com status e link opcional.
 Rodape: Exibe o ano e os créditos da página.
+
+Para rodar o projeto utilize no diretório meu-app: $npm run dev
