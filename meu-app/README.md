@@ -1,32 +1,16 @@
-# React + TypeScript + Vite
+Primeiro commit com a base do projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+segundo commit com a criação dos componentes
 
-Currently, two official plugins are available:
+terceiro commit com o inicio dos componentes em app.tsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+quarto commit com a continuação dos componentes
 
-## React Compiler
+quinto commit com a finalização dos componentes em app.tsc
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Frases dos componentes:
+Cabecalho: Exibe minha foto, nome e curso utilizando props tipadas.
+Painel: Cria uma seção reutilizável que recebe conteúdo através de children.
+HabilidadeItem: Exibe uma habilidade e seu nível de conhecimento.
+ProjetoCard: Mostra as informações de um projeto com status e link opcional.
+Rodape: Exibe o ano e os créditos da página.
